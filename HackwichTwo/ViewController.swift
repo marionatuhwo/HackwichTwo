@@ -8,6 +8,7 @@
 
 import UIKit
 
+//ViewController is an instance of a UIViewController
 class ViewController: UIViewController {
 
     override func viewDidLoad()
