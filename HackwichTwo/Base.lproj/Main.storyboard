@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccQ-gp-HHH">
-                                <rect key="frame" x="111" y="574" width="194" height="112"/>
+                                <rect key="frame" x="110" y="198" width="194" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Press Me">
@@ -26,6 +26,14 @@
                                     <action selector="pressMeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k0x-JO-CNM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdn-o1-1f1">
+                                <rect key="frame" x="117" y="543" width="181" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Push to Segue"/>
+                                <connections>
+                                    <segue destination="7z6-1J-3kH" kind="show" id="DaJ-lQ-zsf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -33,7 +41,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-711.59420289855075" y="107.8125"/>
+            <point key="canvasLocation" x="-971.01449275362324" y="-30.133928571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PqU-gl-G3J">
+            <objects>
+                <viewController id="7z6-1J-3kH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="moQ-m6-CVM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="SMo-Gd-SsE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0Ei-dl-jSE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v3a-d1-XNs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-141" y="-24"/>
         </scene>
     </scenes>
 </document>
