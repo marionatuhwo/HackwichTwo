@@ -30,6 +30,21 @@ class ViewController: UIViewController {
         print("Hello World!")
     }
     
+    /*Hackwich #2: Introduction to Storyboard, Objects and Properties
+    In Class Week #3
+    Tuesday: January 26, 2021
+    
+     Part 8: On your own (worth 5 points)
+    1. Add another button to your screen and run through all the steps in Parts 1-7 again. However, instead of printing “Hello World”, please print, “I got this!”. */
+    
+    @IBAction func secondButtonPressed(_ sender: Any)
+    {
+            print("I Got this!")
+        
+    }
+    
+
+    
     
     
     
